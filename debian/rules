@@ -13,7 +13,7 @@ export DEB_VERSION_UPSTREAM
 
 # Rename the binary xml -> xmlstarlet
 override_dh_auto_configure:
-	dh_auto_configure -- --program-transform-name=s/xml$$/xmlstarlet/ --enable-build-docs
+	dh_auto_configure -- --program-transform-name=s/xml$$/xmlstarlet/ --enable-build-docs --with-libxml-prefix=/usr --with-libxslt-prefix=/usr
 
 override_dh_fixperms:
 	dh_fixperms

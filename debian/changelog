@@ -1,3 +1,9 @@
+xmlstarlet (1.6.1-2build1bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Tue, 05 Jan 2021 18:55:06 +0100
+
 xmlstarlet (1.6.1-2build1) focal; urgency=medium
 
   * No-change rebuild to restore i386 binaries.
